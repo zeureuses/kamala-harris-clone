@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (max-width: 768px) {
+  .dancing-gif.left,
+  .dancing-gif.right {
+    position: relative;
+    top: initial;
+    left: initial;
+    right: initial;
+    transform: none !important;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .contract-address,
+  .how-to-buy-address {
+    word-break: break-all;
+    font-size: 0.9em;
+  }
+}
